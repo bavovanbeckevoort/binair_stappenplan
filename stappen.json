@@ -1,0 +1,22 @@
+[
+  {
+    "stap": 1,
+    "tekst": "Bepaal de waarde van elke positie. We werken van rechts naar links: 1, 2, 4, 8, 16, 32, 64, 128."
+  },
+  {
+    "stap": 2,
+    "tekst": "Kijk naar het decimale getal. Zoek het grootste binaire getal dat in dit getal past."
+  },
+  {
+    "stap": 3,
+    "tekst": "Zet een '1' op die positie en trek de waarde af van je totaal."
+  },
+  {
+    "stap": 4,
+    "tekst": "Ga naar de volgende positie naar links en herhaal dit tot je totaal nul is."
+  },
+  {
+    "stap": 5,
+    "tekst": "Vul alle overgebleven posities aan de rechterkant in met een '0'."
+  }
+]
