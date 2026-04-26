@@ -1,0 +1,6 @@
+[
+  { "stap": 1, "tekst": "Schrijf de binaire reeks op en zet de waarden (128, 64, 32...) er boven." },
+  { "stap": 2, "tekst": "Kijk waar een '1' staat in de binaire reeks." },
+  { "stap": 3, "tekst": "Tel de bovenliggende waarden van alle enen bij elkaar op." },
+  { "stap": 4, "tekst": "De som van deze getallen is je decimale resultaat!" }
+]
