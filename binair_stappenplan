@@ -1,0 +1,26 @@
+[
+  {
+    "stap": 1,
+    "tekst": "Bepaal de CIDR-notatie (bijv. /26) en vind het bijbehorende subnetmasker. Een subnet bestaat uit 4 octetten van 8 bits (32 bits totaal)."
+  },
+  {
+    "stap": 2,
+    "tekst": "Identificeer het 'magische getal' (block size). Trek de waarde van het veranderende octet af van 256. Bij /26 is het masker 255.255.255.192, dus: 256 - 192 = 64."
+  },
+  {
+    "stap": 3,
+    "tekst": "Bereken het Netwerk Adres. Zoek het hoogste veelvoud van je magische getal (bijv. 64) dat kleiner of gelijk is aan het octet van het IP-adres."
+  },
+  {
+    "stap": 4,
+    "tekst": "Bepaal het Eerste Bruikbare Host IP-adres. Dit is simpelweg het Netwerk Adres + 1 op het laatste octet."
+  },
+  {
+    "stap": 5,
+    "tekst": "Bereken het Broadcast Adres. Dit is het (volgende netwerkadres) - 1. Bij een opeenvolging van 64 is het volgende netwerk .64, dus het broadcast adres wordt .63."
+  },
+  {
+    "stap": 6,
+    "tekst": "Bepaal het Laatste Bruikbare Host IP-adres. Dit is het Broadcast Adres - 1."
+  }
+]
